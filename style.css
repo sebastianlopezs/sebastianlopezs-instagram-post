@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 32%;
+    height: 700px;
+    margin-top: 50px;
+    border-radius: .5rem;
+}
+
+.dot img {
+    width: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer {
+    padding: 1rem;
+}
+
+.paisaje img {
+    width: 456px;
+    height: 350px;
+}
+
+.header-text{
+    margin-right: 65%;
+
+}
+
+.header-text h4{
+    margin: .3rem;
+}
+
+i{
+    font-size: 40px;
+}
+
+.footer p {
+    line-height: 1.5rem;
+    margin-top: -.3rem;
+}
+
+.buttons {
+    display: flex;
+    padding: 1rem;
+}
+
+.buttons span{
+    margin: .3rem;
+}
+
+.save {
+   position: relative;
+   left: 105%;
+}
